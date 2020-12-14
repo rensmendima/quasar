@@ -1,0 +1,7 @@
+{
+    path: '/login',
+    component: () => import('layouts/Auth.vue'),
+    children: [
+      { path: '', component: () => import('pages/login.vue') }
+    ]
+  },
